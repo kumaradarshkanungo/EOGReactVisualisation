@@ -35,7 +35,6 @@ const App = () => (
     <Provider store={store}>
       <Wrapper>
         <Header />
-        {/* <NowWhat /> */}
         <Container>
           <Metrics/>
           <Box currentTime={currentTime} />
